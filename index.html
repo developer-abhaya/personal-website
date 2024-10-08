@@ -4,36 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abhaya Bikram Shahi</title>
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
-    
   </head>
   <body>
-    
-    <div class="contanier">
-      <div class="about-full">
-        <div class="wrap">
-          <div class="full-info">
-            <div class="AUTHOR-img">
-              <img src="abhaya.jpg" alt="" />
-            </div>
-            <div class="about">
-              <h2>Abhaya Bikram Shahi</h2>
-              <p>Web Developer, Editor, Graphic Designer,UI/Ux</p>
-              <div class="des">
-                <p>
-                 Nice to meet all of you. It's me Abhaya Bikram Shahi from Kaliko the remote area of the Karnali Provinces of Nepal. I am 15 year old. I am the first person in the family at my family who is the programmer. I am study in class 9 at <a href="https://www.collegenp.com/school/badimalika-secondary-school-kalikot/">Badimalika Secondary School</a> Since 2 year. I am helping the socity from technology  and i am working to make the society accessible the all technology. In my carrer the <strong>Budh Ram Gurung</strong> and <strong>Sushant Rimal</strong> sir help me to grow on this feild. I am wanna do thankfully to them and their team member like <strong>Dev Gautam Kumar</strong>, <strong>Sakshyam Banjade</strong>
-                </p>
-                <p>
-                  Let's talk about the skills. I am perfect at vanilla technology like on structural technology like HTML,CSS,JS and the framework of js like React. I am working on UI/UX  also from now on. I am also working on Abhaya Solutions as a Founder of this organization and this is based on a technology company from since 2023. I am also working on NepStyle as a Founder of this organization this is the clothing brand. I am a youtuber related with coding and programming channel <a href="https://www.youtube.com/@code-with-abhaya">Visit</a>. I am the member of Dev Community Nepal , Gorkha dev Nepal, Dhanu Academy, Dhanu Sir and Code to earn.
-                </p>
-              </div>
-              <div class="btn">
-                <button onclick="window.location.href = 'tel:+977-9808370638'">Contact</button>
-              </div>
-            </div>
-          </div>
+    <div class="navbar">
+      <div class="navigation-system">
+        <div class="logo">
+          <h2>Abhaya</h2>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="hlo.pdf" download="hlo.pdf">Download C.V</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </div>
+    <div class="hero-section" id="home">
+      <div class="abt">
+        <h1>
+          Let's connect each other to get together skilled
+          <strong>Programmer.</strong>
+        </h1>
+        <p>
+          Hello everyone, I'm Abhaya Bikram Shahi, a 14-year-old programmer
+          passionate about coding and technology. I am doing Html,Css ,
+          JavaScript , Python and C language programming languages.
+        </p>
+        <div class="btn">
+          <button>Hire Me</button>
+        </div>
+      </div>
+      <div class="hero">
+        <img src="hero.jpg" alt="Hero Image" />
+      </div>
+    </div>
+    <div class="skills">
+      <div class="title">
+        <h1>My Personal Information</h1>
+      </div>
+      <div class="about" id="skill">
+        <div class="name"><h2>Abhaya Bikram Shahi</h2></div>
+        <div class="work">
+          <p>Web developer and Ai developer</p>
+        </div>
+        <div class="workkk">
+         <p>Abhaya Bikram Shahi is a young, passionate web developer from Kalikot, Nepal. At just 14 years old, he began his journey in web development in 2023 and has already founded <strong>Abhaya Solutions</strong>. His expertise lies in HTML , Css , Js , Python and C. He is currently enhancing his C skills while specializing in A.I
+
+
+
+</p>
+<p>Driven by his passion for technology, Abhaya is also a <strong>YouTuber</strong>, focusing on coding tutorials.  </p>
+
+<p>Abhaya is mentored by <strong>Budh Ram Gurung</strong> and <strong>Sushant Rimal</strong>, working with from since 1.5 year <strong>Dev Gautam Kumar</strong> and <strong>Sakshyam Banajde</strong>, who assist him in his growth. He continuously works on improving his skills and balancing his academic commitments with his passion for coding.</p>
+        </div>
+      </div>
   </body>
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+
+    
+  </script>
 </html>
