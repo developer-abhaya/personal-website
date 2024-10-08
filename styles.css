@@ -187,3 +187,17 @@ a{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+.hero-res {
+    display: none;
+}
+
+@media (max-width: 886px) {
+    .hero-res {
+        display: block;
+    }
+    .hero {
+        display: none;
+    }
+}
