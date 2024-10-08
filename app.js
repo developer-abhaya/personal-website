@@ -5,6 +5,8 @@ hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-document.getElementById("call").addEventListener("click", () => {
-    window.location.href = "tel:9808370638";
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("call").addEventListener("click", () => {
+        window.location.href = "tel:9808370638";
+    });
 });
