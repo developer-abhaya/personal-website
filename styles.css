@@ -106,6 +106,9 @@ body{
     transition: background 0.3s;
     border-radius: 12px;
 }
+a{
+    color: white;
+}
 @media (max-width: 886px) {
     .hero-section {
         align-items: center;
