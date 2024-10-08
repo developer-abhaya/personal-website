@@ -13,3 +13,11 @@ hamburger.addEventListener("click", () => {
         window.location.href = "tel:9808370638";
     });
 });
+
+window.onload = () => {
+    // Check if the URL contains a specific hash fragment
+    if (window.location.hash === '#home' || window.location.hash === '#skill') {
+        // Remove the hash from the URL
+        history.replaceState(null, null, window.location.pathname);
+    }
+};
