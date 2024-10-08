@@ -118,6 +118,9 @@ body{
     .hero-section img {
         display: none;
     }
+    .workkk{
+        text-align: start;
+    }
 }
 .title {
     text-align: center;
